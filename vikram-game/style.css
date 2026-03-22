@@ -1,0 +1,37 @@
+body {
+  font-family: Georgia, serif;
+  background-color: #2C1B12;
+  color: #F5E6C8;
+  text-align: center;
+  padding: 20px;
+}
+
+h1 {
+  color: #C9A44C;
+}
+
+#story-box, #riddle-box {
+  margin: 20px auto;
+  max-width: 600px;
+  padding: 20px;
+  border: 1px solid #C9A44C;
+  border-radius: 10px;
+}
+
+button {
+  background-color: #C9A44C;
+  color: #2C1B12;
+  border: none;
+  padding: 10px 20px;
+  margin: 10px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+.hidden {
+  display: none;
+}
